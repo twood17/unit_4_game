@@ -1,0 +1,36 @@
+ /* { background: url("../images/jewels.jpg"); */
+    /* Setting the height/width of the image */
+    /* height: 100%; */
+    /* Making sure the imagine covers the full page */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center;  */
+ /* }  */
+body {
+    width: 960px;
+    margin: 0 auto;
+    background: url("../images/jewels.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        
+}
+header {
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+input {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua;
+    width: 80px;
+    height: 80px;
+}
